@@ -1,6 +1,6 @@
 package bstorm.akimt.testNGtest;
 
-public interface DummyService {
+public interface InterfaceOne {
 
     int dummyMethod(String dummyParam);
 

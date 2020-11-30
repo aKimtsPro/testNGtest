@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite">
+    <test name="test suite">
+
+        <parameter name="param1" value="hein?"/>
+
+        <groups>
+            <run>
+                <include name="group1"/>
+                <include name="group2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="bstorm.akimt.testNGtest.suite.TestSuite" />
+            <class name="bstorm.akimt.testNGtest.tests.ClassOneTest" />
+            <class name="bstorm.akimt.testNGtest.tests.ClassTwoTest" />
+            <class name="bstorm.akimt.testNGtest.group.Group1" />
+            <class name="bstorm.akimt.testNGtest.group.Group2" />
+        </classes>
+    </test>
+</suite>

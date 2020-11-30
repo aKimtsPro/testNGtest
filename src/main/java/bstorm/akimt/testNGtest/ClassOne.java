@@ -3,8 +3,7 @@ package bstorm.akimt.testNGtest;
 import org.springframework.stereotype.Service;
 
 @Service
-public class DummyServiceImpl implements DummyService {
-
+public class ClassOne implements InterfaceOne {
 
     @Override
     public int dummyMethod(String dummyParam) {
